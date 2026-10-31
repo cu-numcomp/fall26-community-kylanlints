@@ -10,28 +10,28 @@ primary audience is.*
 
 | Description | Your answer |
 |---------|-----------|
-| Repository URL |    |
-| Main/documentation website |    |
-| Year project was started |   |
-| Number of contributors in the past year | `git shortlog -se --since=2025-11-01` may be useful |
-| Number of contributors in the lifetime of the project |   |
-| Number of distinct affiliations | 1, 2-5, 5-10, >10 |
-| Where do development discussions take place? | e.g., GitHub/GitLab issues, mailing list, Slack, etc.  |
-| Typical number of emails/comments per week? |   |
-| Typical number of commits per week? |  |
-| Typical commit size | `git log --shortstat` may be useful |
-| How does the project accept contributions? | e.g., pull requests, patches on mailing lists   |
-| Does the project have an automated test suite? | yes/no |
-| Does the project use continuous integration? | yes/no |
-| Does the project have an AI contribution policy? | link |
-| Are any legal/licensing steps required to contribute? | no or explain below |
+| Repository URL | [link](https://github.com/scipy/scipy.git) (I am specifically focussing on scipy/sparse) |
+| Main/documentation website | [link](https://docs.scipy.org/doc/scipy/) |
+| Year project was started | 2001 |
+| Number of contributors in the past year | 246 |
+| Number of contributors in the lifetime of the project | 1983 |
+| Number of distinct affiliations | >10 |
+| Where do development discussions take place? | GitHub issues as well as [link](https://discuss.scientific-python.org/c/contributor/scipy/32) |
+| Typical number of emails/comments per week? | ~20-30 GitHub issues opened per week, ~3 posts on the discussion forum per week |
+| Typical number of commits per week? | ~45 |
+| Typical commit size | 1-3 files changed, 5-100 inseritons, 1-50 deletions |
+| How does the project accept contributions? | Through pull requests |
+| Does the project have an automated test suite? | yes |
+| Does the project use continuous integration? | yes |
+| Does the project have an AI contribution policy? | [link](https://scipy.github.io/devdocs/dev/conduct/ai_policy.html) |
+| Are any legal/licensing steps required to contribute? | no |
 
 ### Install and run
 
 Check the following boxes when complete or add a note below if you
 encountered a problem.
 
-- [ ] I have installed the software
+- [*] I have installed the software
 - [ ] I have run at least one example
 - [ ] I have run the test suite
 - [ ] The test suite passes
