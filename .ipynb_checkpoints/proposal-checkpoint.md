@@ -1,16 +1,15 @@
 # Community Software Analysis Proposal
 Please edit this file and push to your repository.
 
-## Software: *NAME_OF_PACKAGE_HERE*
+## Software: *SciPy*
 
-*Write a paragraph describing what the software does and who its
-primary audience is.*
+SciPy is a general purpose open source scientific computing library for python, which includes algorithms for optimization, linear algebra problems, differentiation and integration, and many other classes of problems. SciPy wraps LAPACK linear algbra functions iternally to provide an optimized implementation, and it extends many basic features that numpy offers by adding new data structures such as sparse matrices and accompanying algorithms. The sparse module specifically focusses on sparse matrix problems, including iterative algorithms for solving least squares systems, such as conjugate graidnet and GMRES, as well as low-rank algorithms such as low-rank SVD. The optimize module focuses on linear and non-linear least-squares problems and curve-fitting, including algorithms such as Newton-CG and BFGS.
 
 ### Stats
 
 | Description | Your answer |
 |---------|-----------|
-| Repository URL | [link](https://github.com/scipy/scipy.git) (I am specifically focussing on scipy/sparse) |
+| Repository URL | [link](https://github.com/scipy/scipy.git) (I am specifically focussing on scipy.sparse and scipy.optimize) |
 | Main/documentation website | [link](https://docs.scipy.org/doc/scipy/) |
 | Year project was started | 2001 |
 | Number of contributors in the past year | 246 |
@@ -32,9 +31,9 @@ Check the following boxes when complete or add a note below if you
 encountered a problem.
 
 - [*] I have installed the software
-- [ ] I have run at least one example
-- [ ] I have run the test suite
-- [ ] The test suite passes
+- [*] I have run at least one example
+- [*] I have run the test suite
+- [*] The test suite passes
 
 ### Notes/concerns/risks
 
