@@ -3,7 +3,7 @@ Please edit this file and push to your repository.
 
 ## Software: *SciPy*
 
-SciPy is a general purpose open source scientific computing library for python, which includes algorithms for optimization, linear algebra problems, differentiation and integration, and many other classes of problems. SciPy wraps LAPACK linear algbra functions iternally to provide an optimized implementation, and it extends many basic features that numpy offers by adding new data structures such as sparse matrices and accompanying algorithms. The sparse module specifically focusses on sparse matrix problems, including iterative algorithms for solving least squares systems, such as conjugate graidnet and GMRES, as well as low-rank algorithms such as low-rank SVD. The optimize module focuses on linear and non-linear least-squares problems and curve-fitting, including algorithms such as Newton-CG and BFGS.
+SciPy is a general purpose open source scientific computing library for python, which includes algorithms for optimization, rootfinding, many linear algebra problems, differentiation and integration, FFT, statistics, and many other classes of problems.. SciPy wraps LAPACK linear algbra functions iternally to provide an optimized implementation, and it extends many basic features that numpy offers by adding new data structures such as sparse matrices and accompanying algorithms. The sparse module specifically focusses on sparse matrix problems, including iterative algorithms for solving least squares systems, such as conjugate graidnet and GMRES, as well as low-rank algorithms such as low-rank SVD. The optimize module focuses on linear and non-linear least-squares problems and curve-fitting, including algorithms such as Newton-CG and BFGS.
 
 ### Stats
 
